@@ -5,12 +5,9 @@ This applicaton is linked with A.I.VOICE Editor, an product of AI, Inc., and res
 This software is released under the MIT License.  
 Copyright (c) 2023 Tinatsu Nomy  
 http://opensource.org/licenses/mit-license.php  
-## CAUTION
-ANY PROBLEMS THAT OCCUR WITH THIS APPLICATION ARE TO BE RESOLVED  
-BY THE USER OF THE APPLICATION. THE AUTHOR ASSUMES NO RESPONSIBILITY.
 ## USAGE
 ここから日本語w  
-- OpenAPIのサイトでAPI Key, openai,organization idを取得します。  
+- OpenAIのサイトでAPI Key, openai,organization idを取得します。  
 - 環境変数へAPI openai,organization idを設定します。  
   `OPENAI_API_KEY`へは`API Key`、`OPENAI_ORGANIZATION_ID`は`organization id`を設定します。  
 - Python環境を用意します。  
