@@ -8,7 +8,7 @@ http://opensource.org/licenses/mit-license.php
 ## USAGE
 ここから日本語w  
 - OpenAIのサイトでAPI Key, openai,organization idを取得します。  
-- 環境変数へAPI openai,organization idを設定します。  
+- 環境変数へAPI Key,organization idを設定します。  
   `OPENAI_API_KEY`へは`API Key`、`OPENAI_ORGANIZATION_ID`は`organization id`を設定します。  
 - Python環境を用意します。  
   Python 3.10.9で動作確認済み。  
