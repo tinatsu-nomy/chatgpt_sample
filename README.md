@@ -14,9 +14,9 @@ http://opensource.org/licenses/mit-license.php
   Python 3.10.9で動作確認済み。  
   ライブラリをインストールするのでvenvで仮想環境を作成することがお勧めです。  
 - ライブラリをインストールします。  
-　Gradioとpythonnetをインストールします。  
+　openai、Gradioとpythonnetをインストールします。  
   ```
-  pip install gradio pythonnet
+  pip install openai gradio pythonnet
   ```
 - A.I.VOICE Editorで喋らせたいキャラクタのプリセットを作成します。  
   <img src="https://github.com/tinatsu-nomy/chatgpt_sample/blob/main/images/aivoice.png" width="300px">
