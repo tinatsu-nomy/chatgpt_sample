@@ -113,13 +113,30 @@ class AiVoicePlayback:
         # API initialization
         self.tts_control.Initialize(self.current_host)
         # Launch with application program
-        if (self.tts_control.Status == HostStatus.NotRunning):
-            self.tts_control.StartHost()
+        self.__start_host()
         # Connect to the application program
         self.__connect()
         # set TextEditMode Text
         self.tts_control.TextEditMode = TextEditMode.Text
         self.is_connect = True
+
+    def __start_host(self):
+        """
+            Launch with application program
+            Wait 300 seconds for startup.
+        """
+        round = 0
+        wait_time = 300.0
+        while True:
+            status = self.tts_control.Status
+            if status == HostStatus.NotConnected:
+                break
+            elif round == 0:
+                self.tts_control.StartHost()
+            time.sleep(0.01)
+            round += 1
+            if (round > wait_time/0.01):
+                raise Exception(f'Failed to start up the A.I.VOICE Editor. Waited {wait_time} seconds.')
 
     def __connect(self) -> None:
         """
