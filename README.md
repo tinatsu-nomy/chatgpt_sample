@@ -22,9 +22,10 @@ BY THE USER OF THE APPLICATION. THE AUTHOR ASSUMES NO RESPONSIBILITY.
   pip install gradio pythonnet
   ```
 - A.I.VOICE Editorで喋らせたいキャラクタのプリセットを作成します。  
+  <img src="https://github.com/tinatsu-nomy/chatgpt_sample/blob/main/images/aivoice.png" width="300px">
 - app.pyを起動します。　　
   ```
   python app.py
   ```
-  Webブラウザが起動します。
-  
+  しばらくすると、Webブラウザが起動します。  
+  <img src="https://github.com/tinatsu-nomy/chatgpt_sample/blob/main/images/chatgpt_sample.png" width="300px">
